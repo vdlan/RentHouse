@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Housinglocation } from '../housinglocation';
 
 @Component({
   selector: 'app-housing-location',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./housing-location.component.css']
 })
 export class HousingLocationComponent implements OnInit {
+  @Input() housingLocation!: Housinglocation;
 
   constructor() { }
 

@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Housinglocation } from './housinglocation';
+import { Observable, map, of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -120,5 +121,16 @@ export class HousingService {
 
   submitApplication(firstName: string, lastName: string, email: string) {
     console.log(`Homes application received: firstName: ${firstName}, lastName: ${lastName}, email: ${email}.`);
+  }
+  
+  getHousingByCity(query?: string) : Observable<Housinglocation[]> {
+    return of(this.housingLocationList).pipe(
+      map(data => 
+        data.filter(res => {
+          if(!query) return true;
+          return res.city.toLowerCase().startsWith(query.toLowerCase());
+        })
+      )
+    )
   }
 }

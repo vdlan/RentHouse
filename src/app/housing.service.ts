@@ -11,7 +11,7 @@ export class HousingService {
       name: 'Acme Fresh Start Housing',
       city: 'Ha Noi',
       state: 'HN',
-      photo: 'https://via.placeholder.com/600/92c952',
+      photo: '/assets/example-house.jpg',
       availableUnits: 4,
       wifi: true,
       laundry: true
@@ -21,7 +21,7 @@ export class HousingService {
       name: 'A113 Transitional Housing',
       city: 'Sai Gon',
       state: 'SG',
-      photo: 'https://via.placeholder.com/600/771796',
+      photo: '/assets/house1.jpg',
       availableUnits: 0,
       wifi: false,
       laundry: true
@@ -31,7 +31,7 @@ export class HousingService {
       name: 'Warm Beds Housing Support',
       city: 'Da Nang',
       state: 'Dn',
-      photo: 'https://via.placeholder.com/600/24f355',
+      photo: 'https://dotnetmastery.com/bluevillaimages/villa2.jpg',
       availableUnits: 1,
       wifi: false,
       laundry: false
@@ -41,7 +41,7 @@ export class HousingService {
       name: 'Homesteady Housing',
       city: 'Hai Phong',
       state: 'HP',
-      photo: 'https://via.placeholder.com/600/d32776',
+      photo: 'https://dotnetmastery.com/bluevillaimages/villa5.jpg',
       availableUnits: 1,
       wifi: true,
       laundry: false
@@ -51,7 +51,7 @@ export class HousingService {
       name: 'Happy Homes Group',
       city: 'Can Tho',
       state: 'CT',
-      photo: 'https://via.placeholder.com/600/f66b97',
+      photo: 'https://dotnetmastery.com/bluevillaimages/villa4.jpg',
       availableUnits: 1,
       wifi: true,
       laundry: false
@@ -61,7 +61,7 @@ export class HousingService {
       name: 'Hopeful Apartment Group',
       city: 'Nam Dinh',
       state: 'ND',
-      photo: 'https://via.placeholder.com/600/56a8c2',
+      photo: 'https://dotnetmastery.com/bluevillaimages/villa1.jpg',
       availableUnits: 2,
       wifi: true,
       laundry: true
@@ -71,7 +71,7 @@ export class HousingService {
       name: 'Seriously Safe Towns',
       city: 'Ha Noi',
       state: 'HN',
-      photo: 'https://via.placeholder.com/600/b0f7cc',
+      photo: 'https://dotnetmastery.com/bluevillaimages/villa3.jpg',
       availableUnits: 5,
       wifi: true,
       laundry: true
@@ -81,7 +81,7 @@ export class HousingService {
       name: 'Hopeful Housing Solutions',
       city: 'Sai Gon',
       state: 'SG',
-      photo: 'https://via.placeholder.com/600/54176f',
+      photo: '/assets/house2.png',
       availableUnits: 2,
       wifi: true,
       laundry: true
@@ -91,7 +91,7 @@ export class HousingService {
       name: 'Seriously Safe Towns',
       city: 'Da Nang',
       state: 'DN',
-      photo: 'https://via.placeholder.com/600/51aa97',
+      photo: '/assets/house3.jpg',
       availableUnits: 10,
       wifi: false,
       laundry: false
@@ -101,7 +101,7 @@ export class HousingService {
       name: 'Capital Safe Towns',
       city: 'Hai Phong',
       state: 'HP',
-      photo: 'https://via.placeholder.com/600/810b14',
+      photo: '/assets/house4.jpg',
       availableUnits: 6,
       wifi: true,
       laundry: true
